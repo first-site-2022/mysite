@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+Feedback  :: {{ block.super }}
+{% endblock %}
+
+{% block sidebar %}
+{% include 'inc/_sidebar.html' %}
+{% endblock %}
+
+{% block content %}
+
+
+<H1>Feedback</H1>
+
+<form method="post">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary btn-block">SEND EMAIL</button>
+
+
+</form>
+
+
+{% endblock %}

@@ -24,7 +24,7 @@ SECRET_KEY = '*ky(o6p+iw1(8u4fx$^fwnpdqt337(yw3*uk%g02b3*8(x-av$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mysitealex8383.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
@@ -138,7 +138,7 @@ INTERNAL_IPS = ['127.0.0.1']
 EMAIL_HOST = 'smtp.ukr.net'
 EMAIL_PORT = 465
 EMAIL_HOST_USER = 'krava198383@ukr.net'
-# EMAIL_HOST_PASSWORD = 'VCs75A4RUTc0FUvY'
+EMAIL_HOST_PASSWORD = 'VCs75A4RUTc0FUvY'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 CKEDITOR_UPLOAD_PATH = "uploads/"

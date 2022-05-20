@@ -1,0 +1,3 @@
+DATABASE_URL='postgres://ulzashhccmsvbm:7dd424bbdb0edb77186081d4080c90109fec993baf661f10d390cbe52a629e7e@ec2-52-86-115-245.compute-1.amazonaws.com:5432/ddq08hc5pn07g'
+HEROKU_POSTGRESQL_NAVY_URL='postgres://koballxkdblrjg:3af5bfb36eefa07943b5f164096fc1d8b6480ce395bd6beba59805eaa2a886ed@ec2-54-158-247-210.compute-1.amazonaws.com:5432/dtnnldmu8a78o'
+SECRET_KEY='*ky(o6p+iw1(8u4fx$fwnpdqt337(yw3*uk%g02b3*8(x-av$'

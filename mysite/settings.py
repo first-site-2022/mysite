@@ -19,12 +19,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '*ky(o6p+iw1(8u4fx$^fwnpdqt337(yw3*uk%g02b3*8(x-av$'
+SECRET_KEY = os.environ.get('SECRET_KEY')
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mysitealex8383.herokuapp.com''127.0.0.1']
+ALLOWED_HOSTS = ['https://mysitealex8383.herokuapp.com/','127.0.0.1', '0.0.0.0', 'localhost', '']
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 

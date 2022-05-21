@@ -30,7 +30,7 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL__PASSWORD')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://mysitealex8383.herokuapp.com/','127.0.0.1', '0.0.0.0', 'localhost', '']
+ALLOWED_HOSTS = ['mysitealex8383.herokuapp.com','127.0.0.1', '0.0.0.0', 'localhost', '']
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
